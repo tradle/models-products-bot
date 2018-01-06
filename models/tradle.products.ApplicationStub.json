@@ -1,0 +1,23 @@
+{
+  "type": "tradle.Model",
+  "title": "Application Stub",
+  "id": "tradle.products.ApplicationStub",
+  "inlined": true,
+  "properties": {
+    "dateModified": {
+      "type": "date"
+    },
+    "requestFor": {
+      "type": "string"
+    },
+    "statePermalink": {
+      "type": "string"
+    },
+    "context": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}

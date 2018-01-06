@@ -1,0 +1,14 @@
+{
+  "type": "tradle.Model",
+  "title": "T's & C's state",
+  "id": "tradle.products.TsAndCsState",
+  "inlined": true,
+  "properties": {
+    "datePresented": {
+      "type": "date"
+    },
+    "dateAccepted": {
+      "type": "date"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "tradle.Model",
+  "title": "Role",
+  "subClassOf": "tradle.Enum",
+  "id": "tradle.products.Role",
+  "properties": {
+    "role": {
+      "type": "string"
+    }
+  },
+  "enum": [
+    {
+      "id": "employee",
+      "title": "Employee"
+    }
+  ]
+}
