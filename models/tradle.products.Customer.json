@@ -3,6 +3,9 @@
   "title": "Customer",
   "id": "tradle.products.Customer",
   "properties": {
+    "uid": {
+      "type": "string"
+    },
     "firstName": {
       "type": "string"
     },
@@ -52,5 +55,14 @@
       "inlined": true,
       "ref": "tradle.products.TsAndCsState"
     }
-  }
+  },
+  "primaryKeys": {
+    "hashKey": "uid"
+  },
+  "indexes": [
+    {
+      "hashKey": "lastName",
+      "rangeKey": "firstName"
+    }
+  ]
 }
