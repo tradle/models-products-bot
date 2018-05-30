@@ -9,7 +9,7 @@
     "@tradle/custom-models": "github:tradle/custom-models",
     "@tradle/models": "github:tradle/models",
     "@tradle/pack-models": "^2.0.0",
-    "@tradle/validate-model": "^5.8.1",
+    "@tradle/validate-model": "^7.0.0",
     "husky": "^0.14.3"
   },
   "scripts": {
