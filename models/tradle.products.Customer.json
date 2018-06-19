@@ -61,12 +61,12 @@
   },
   "indexes": [
     {
-      "hashKey": "_t",
-      "rangeKey": "_time"
-    },
-    {
       "hashKey": "lastName",
       "rangeKey": "firstName"
+    },
+    {
+      "hashKey": "_t",
+      "rangeKey": "_time"
     }
   ]
 }
