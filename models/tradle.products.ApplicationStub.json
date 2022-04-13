@@ -18,6 +18,12 @@
     },
     "status": {
       "type": "string"
+    },
+    "draft": {
+      "type": "boolean"
+    },
+    "filledForCustomer": {
+      "type": "boolean"
     }
   }
 }
